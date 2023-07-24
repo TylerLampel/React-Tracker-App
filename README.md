@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# React Tracker App - A Refresher Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React Tracker App](https://github.com/TylerLampel/React-Tracker-App/raw/master/public/screenshot.png)
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Introduction](#introduction)
+- [Project Description](#project-description)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+## Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Welcome to the React Tracker App! This project serves as a refresher for React developers, allowing them to revisit and enhance their React skills while building a simple but functional tracking application. Whether you are a beginner learning React or an experienced developer looking to refresh your knowledge, this project provides an excellent opportunity to brush up on React concepts and best practices.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project Description
 
-### `npm test`
+The React Tracker App is a basic web application that enables users to track various items or tasks. It demonstrates the fundamental concepts of React, such as components, state management, handling user input, and rendering data dynamically. The app has been intentionally kept simple to focus on core React principles and serve as a learning tool.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- Add new items to the tracker.
+- Edit existing items to update their details.
+- Mark items as completed.
+- Remove items from the tracker.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To run the React Tracker App locally on your machine, follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Ensure you have Node.js and npm (Node Package Manager) installed on your system.
+2. Clone this repository to your local machine using the following command:
 
-### `npm run eject`
+```bash
+git clone https://github.com/TylerLampel/React-Tracker-App.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Navigate into the project directory:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+cd React-Tracker-App
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Install the required dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm install
+```
 
-## Learn More
+## Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Once you have installed all the dependencies, you can start the development server with the following command:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm start
+```
 
-### Code Splitting
+This will launch the React Tracker App in your default web browser at http://localhost:3000. You can interact with the app, add, toggle reminders, and remove them from the tracker.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Feel free to explore the codebase and experiment with the application to reinforce your understanding of React concepts.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for your interest in the React Tracker App refresher project. Happy learning and coding with React! If you have any questions or suggestions, please feel free to reach out to the project maintainers.
